@@ -136,14 +136,7 @@ html,
 body {
   font-family: 'Roboto', sans-serif;
 }
-@media  (max-width: 500px)  {
-  html,
-  body {
-    max-width: 460px;
-    margin: 0 auto;
-  }
-}
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   html,
   body {
     max-width: 748px;
@@ -181,6 +174,12 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+@media  (max-width: 500px)  {
+  .container {
+    max-width: 460px;
+    margin: 0 auto;
+  }
 }
 .dotted {
   border-bottom: 1px dashed black;

@@ -9,6 +9,14 @@ html {
 html,
 body {
 	font-family: 'Roboto', sans-serif;
+	@media @mobile {
+		max-width: @mobile-width;
+		margin: 0 auto;
+	}
+	@media @tablet {
+		max-width: @tablet-width;
+		margin: 0 auto;
+	}
 }
 
 h1,
